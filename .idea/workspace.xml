@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6aba7b1-ec3d-4e6e-ae9c-157f3419efc9" name="Default Changelist" comment="" />
+    <list default="true" id="a6aba7b1-ec3d-4e6e-ae9c-157f3419efc9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/AnagramManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/similar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/Similar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/similar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/anagram/services/similar.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +42,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="anagram.services.Main" />
+  <component name="RunManager" selected="Application.AnagramManager">
+    <configuration name="AnagramManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="anagram.services.AnagramManager" />
       <module name="Twistlock_Anagram_Task" />
       <extension name="coverage">
         <pattern>
@@ -82,11 +89,11 @@
     <list>
       <item itemvalue="Maven.Twistlock_Anagram_Task [clean,package]" />
       <item itemvalue="JAR Application.Twistlock_Anagram_Task-jar-with-dependencies.jar" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AnagramManager" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AnagramManager" />
         <item itemvalue="JAR Application.Twistlock_Anagram_Task-jar-with-dependencies.jar" />
       </list>
     </recent_temporary>
@@ -121,46 +128,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585043606905" />
-    <state x="764" y="59" key="#xdebugger.evaluate" timestamp="1585060099341">
+    <state x="102" y="111" width="490" height="543" key="#xdebugger.evaluate" timestamp="1585070912788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="764" y="59" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585060099341" />
+    <state x="102" y="111" width="490" height="543" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1585070912788" />
+    <state width="455" height="466" key="DebuggerActiveHint" timestamp="1585070827480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="455" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1585070827480" />
     <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1585057376670">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585057376670" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1585060043361">
+    <state width="1323" height="114" key="GridCell.Tab.0.bottom" timestamp="1585071571064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585060043361" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1585060043360">
+    <state width="1323" height="114" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585071571064" />
+    <state width="1323" height="114" key="GridCell.Tab.0.center" timestamp="1585071571064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585060043360" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1585060043360">
+    <state width="1323" height="114" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585071571064" />
+    <state width="1323" height="114" key="GridCell.Tab.0.left" timestamp="1585071571064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585060043360" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1585060043360">
+    <state width="1323" height="114" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585071571064" />
+    <state width="1323" height="114" key="GridCell.Tab.0.right" timestamp="1585071571064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585060043360" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585060046041">
+    <state width="1323" height="114" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585071571064" />
+    <state width="1323" height="69" key="GridCell.Tab.1.bottom" timestamp="1585071389000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585060046041" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1585060046040">
+    <state width="1323" height="69" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585071389000" />
+    <state width="1323" height="69" key="GridCell.Tab.1.center" timestamp="1585071388999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585060046040" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1585060046040">
+    <state width="1323" height="69" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585071388999" />
+    <state width="1323" height="69" key="GridCell.Tab.1.left" timestamp="1585071388999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585060046040" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1585060046041">
+    <state width="1323" height="69" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585071388999" />
+    <state width="1323" height="69" key="GridCell.Tab.1.right" timestamp="1585071389000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585060046041" />
+    <state width="1323" height="69" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585071389000" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1585057381596">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -174,9 +185,20 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/anagram/services/similar.java</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/src/main/java/anagram/services/Similar.java</url>
+          <line>16</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/anagram/services/Similar.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="sortWord.equals(&quot;aelpp&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/anagram/services/AnagramManager.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

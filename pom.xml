@@ -27,7 +27,7 @@
           </descriptorRefs>
           <archive>
             <manifest>
-              <mainClass>anagram.services.Main</mainClass>
+              <mainClass>anagram.services.AnagramManager</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -63,7 +63,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>anagram.services.Main</mainClass>
+          <mainClass>anagram.services.AnagramManager</mainClass>
         </configuration>
       </plugin>
     </plugins>

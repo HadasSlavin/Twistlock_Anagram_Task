@@ -9,10 +9,12 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.*;
 
-public class Main {
+public class AnagramManager {
     public static final String BASE_URI = "http://localhost:8080/myapp/";
-    public static final String WORDS_DB_PATH = Main.class.getClassLoader().getResource("words_clean.txt").getPath();
+    public static final String WORDS_DB_PATH = AnagramManager.class.getClassLoader().getResource("words_clean.txt").getPath();
     public static Map<String, List<String>> anagramMap = new HashMap<>();
+    public static Long reqTimeSum = 0L;
+    public static Long countReq = 0L;
 
     public static void CreateAnagramMap() {
         try (Scanner scanner = new Scanner(new File(WORDS_DB_PATH))) {
@@ -27,7 +29,7 @@ public class Main {
                     anagramMap.get(sortWord).add(sourceWord);
                 } else {
                     List<String> sourceWordList = new ArrayList<>();
-                    sourceWordList.add(sortWord);
+                    sourceWordList.add(sourceWord);
                     anagramMap.put(sortWord, sourceWordList);
                 }
             }
