@@ -18,7 +18,7 @@ public class AnagramManager {
                 String sourceWord = scanner.nextLine();
 
                 if (sourceWord != null && !sourceWord.isEmpty()) {
-                    Statistics.incrementTotalWords();
+                    Statistics.getInstance().incrementTotalWords();
 
                     String sortWord = Helper.sort(sourceWord);
 

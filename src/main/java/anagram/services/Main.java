@@ -15,7 +15,7 @@ public class Main {
 
         AnagramManager.CreateAnagramMap(WORDS_DB_PATH);
 
-        System.out.println("Finish preparing the anagram map. total words: " + Statistics.getTotalWords());
+        System.out.println("Finish preparing the anagram map. total words: " + Statistics.getInstance().getTotalWords());
 
         return GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI),
                 new ResourceConfig().packages("anagram.services"));

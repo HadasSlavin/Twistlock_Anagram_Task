@@ -15,13 +15,13 @@ public class SimilarService {
         @Produces(MediaType.APPLICATION_JSON)
         public Response getSimilarWords(@QueryParam("word") String word) {
             long nanoStartTime = System.nanoTime();
-            Statistics.incrementTotalRequests();
+            Statistics.getInstance().incrementTotalRequests();
 
-            SimilarWords SimilarWordsResponse = getAnagramList(word);
+            SimilarWords SimilarWordsResponse = findSimilarWords(word);
 
             long nanoEndTime = System.nanoTime();
 
-            Statistics.updateReqTimeSum((int) (nanoEndTime-nanoStartTime));
+            Statistics.getInstance().updateReqTimeSum((int) (nanoEndTime-nanoStartTime));
 
             return Response
                     .status(Response.Status.OK)
@@ -30,8 +30,9 @@ public class SimilarService {
                     .build();
         }
 
-        private SimilarWords getAnagramList(String word) {
+        private SimilarWords findSimilarWords(String word) {
             String sortWord = Helper.sort(word);
+
             List<String> anagramList = new ArrayList<>();
 
             if (AnagramManager.getAnagramMap().containsKey(sortWord)) {

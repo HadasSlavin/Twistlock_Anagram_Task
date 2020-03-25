@@ -13,7 +13,7 @@ public class StatsService {
     public Response getStats() {
         return Response
                 .status(Response.Status.OK)
-                .entity(Statistics.toJsonString())
+                .entity(Statistics.getInstance())
                 .type(MediaType.APPLICATION_JSON)
                 .build();
     }

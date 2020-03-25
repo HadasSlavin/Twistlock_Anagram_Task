@@ -1,40 +1,51 @@
 package anagram.services;
 
-import org.json.JSONObject;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Statistics {
-    private static int totalWords = 0;
-    private static int totalRequests = 0;
-    private static int reqTimeSum = 0;
+    @JsonProperty
+    private int totalWords = 0;
+    @JsonProperty
+    private int totalRequests = 0;
+    private int reqTimeSum = 0;
 
+    private static Statistics instance;
 
-    public static int getTotalWords() {
+    private Statistics() { }
+
+    public static Statistics getInstance()
+    {
+        if (instance == null)
+        {
+            synchronized (Statistics.class)
+            {
+                if(instance==null)
+                {
+                    instance = new Statistics();
+                }
+            }
+        }
+        return instance;
+    }
+
+    public int getTotalWords() {
         return totalWords;
     }
 
-    public static int getAvgProcessingTimeNs() {
+    @JsonProperty
+    public int getAvgProcessingTimeNs() {
         return totalRequests != 0 ? reqTimeSum/totalRequests : 0;
     }
 
-    public static void incrementTotalWords() {
+    public void incrementTotalWords() {
         totalWords++;
     }
 
-    public static void incrementTotalRequests() {
+    public void incrementTotalRequests() {
         totalRequests++;
     }
 
-    public static void updateReqTimeSum(int reqTime) {
+    public void updateReqTimeSum(int reqTime) {
         reqTimeSum+=reqTime;
-    }
-
-    public static String toJsonString() {
-        JSONObject response = new JSONObject();
-
-        response.put("totalWords", totalWords);
-        response.put("totalRequests", totalRequests);
-        response.put("avgProcessingTimeNs", getAvgProcessingTimeNs());
-
-        return response.toString();
     }
 }
