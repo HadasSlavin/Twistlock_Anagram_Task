@@ -15,22 +15,25 @@ public class Similar {
         @Produces(MediaType.APPLICATION_JSON)
         public Response getSimilarWords(@QueryParam("word") String word) {
             long nanoStartTime = System.nanoTime();
-            AnagramManager.countReq++;
+            System.out.println("start proccisng request for: "+ word);
+            AnagramManager.totalRequests++;
 
-            String responseMessage = createJsonResponse(getAnagramList(word));
+           // String responseMessage = createJsonResponse(getAnagramList(word));
 
+            //String responseMessage =
             long nanoEndTime = System.nanoTime();
 
             AnagramManager.reqTimeSum += nanoEndTime-nanoStartTime;
 
             return Response
                     .status(Response.Status.OK)
-                    .entity(responseMessage)
+                    .entity(getAnagramList(word))
                     .type(MediaType.APPLICATION_JSON)
                     .build();
         }
 
         private List<String> getAnagramList(String word) {
+            long nanoStartTime = System.nanoTime();
             char[] wordChars = word.toCharArray();
             Arrays.sort(wordChars);
             String sortWord = new String(wordChars);
@@ -41,11 +44,14 @@ public class Similar {
                 anagramList = AnagramManager.anagramMap.get(sortWord);
                 anagramList.remove(word);
             }
+            long nanoEndTime = System.nanoTime();
+            System.out.println("getAnagramList time:" + Long.toString(nanoEndTime-nanoStartTime));
 
             return anagramList;
         }
 
         private String createJsonResponse(List<String> anagramList) {
+            long nanoStartTime = System.nanoTime();
             JSONObject response = new JSONObject();
 
             if (anagramList == null || anagramList.isEmpty()) {
@@ -53,6 +59,8 @@ public class Similar {
             } else {
                 response.put("similar", anagramList);
             }
+            long nanoEndTime = System.nanoTime();
+            System.out.println("createJsonResponse time:" + Long.toString(nanoEndTime-nanoStartTime));
 
             return response.toString();
         }

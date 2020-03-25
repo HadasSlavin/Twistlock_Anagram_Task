@@ -1,4 +1,4 @@
 package anagram.services;
 
-public class Stats {
+public class Helper {
 }
