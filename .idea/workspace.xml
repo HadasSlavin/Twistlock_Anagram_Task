@@ -4,10 +4,15 @@
     <list default="true" id="a6aba7b1-ec3d-4e6e-ae9c-157f3419efc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/AnagramManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/similar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/Similar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/similar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/anagram/services/similar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/AnagramManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/AnagramManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/SimilarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/SimilarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/SimilarWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/SimilarWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/StatsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/StatsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/AnagramManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/similar.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +47,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.AnagramManager">
-    <configuration name="AnagramManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="anagram.services.AnagramManager" />
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="anagram.services.Statistics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="anagram.services.Main" />
       <module name="Twistlock_Anagram_Task" />
       <extension name="coverage">
         <pattern>
@@ -89,11 +99,11 @@
     <list>
       <item itemvalue="Maven.Twistlock_Anagram_Task [clean,package]" />
       <item itemvalue="JAR Application.Twistlock_Anagram_Task-jar-with-dependencies.jar" />
-      <item itemvalue="Application.AnagramManager" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnagramManager" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JAR Application.Twistlock_Anagram_Task-jar-with-dependencies.jar" />
       </list>
     </recent_temporary>
@@ -128,6 +138,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585043606905" />
+    <state x="457" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1585131399406">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="457" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585131399406" />
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585125279533">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1585125279533" />
+    <state x="402" y="70" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1585125290361">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="70" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1585125290361" />
     <state x="102" y="111" width="490" height="543" key="#xdebugger.evaluate" timestamp="1585070912788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -140,22 +162,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585057376670" />
-    <state width="1323" height="114" key="GridCell.Tab.0.bottom" timestamp="1585071571064">
+    <state width="1323" height="66" key="GridCell.Tab.0.bottom" timestamp="1585133044275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="114" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585071571064" />
-    <state width="1323" height="114" key="GridCell.Tab.0.center" timestamp="1585071571064">
+    <state width="1323" height="66" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585133044275" />
+    <state width="1323" height="66" key="GridCell.Tab.0.center" timestamp="1585133044274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="114" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585071571064" />
-    <state width="1323" height="114" key="GridCell.Tab.0.left" timestamp="1585071571064">
+    <state width="1323" height="66" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585133044274" />
+    <state width="1323" height="66" key="GridCell.Tab.0.left" timestamp="1585133044274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="114" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585071571064" />
-    <state width="1323" height="114" key="GridCell.Tab.0.right" timestamp="1585071571064">
+    <state width="1323" height="66" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585133044274" />
+    <state width="1323" height="66" key="GridCell.Tab.0.right" timestamp="1585133044275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="114" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585071571064" />
+    <state width="1323" height="66" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585133044275" />
     <state width="1323" height="69" key="GridCell.Tab.1.bottom" timestamp="1585071389000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -180,27 +202,5 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585057415761" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/anagram/services/Similar.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/anagram/services/Similar.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="sortWord.equals(&quot;aelpp&quot;)" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/main/java/anagram/services/AnagramManager.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
