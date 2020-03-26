@@ -1,0 +1,6 @@
+anagram\services\Main.class
+anagram\services\SimilarController.class
+anagram\services\StatsController.class
+anagram\services\Statistics.class
+anagram\services\SimilarController$SimilarWords.class
+anagram\services\AnagramManager.class

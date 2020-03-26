@@ -1,28 +1,27 @@
 package anagram.services;
 
-import org.glassfish.grizzly.http.server.HttpServer;
-import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
-import org.glassfish.jersey.server.ResourceConfig;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.net.URI;
+import java.io.InputStream;
 
+@SpringBootApplication
 public class Main {
-    public static final String BASE_URI = "http://localhost:8080/api/v1/";
-    public static final String WORDS_DB_PATH = Main.class.getClassLoader().getResource("words_clean.txt").getPath();
-
-    public static HttpServer startServer() {
-        System.out.println("Prepares the anagram map.. ");
-
-        AnagramManager.CreateAnagramMap(WORDS_DB_PATH);
-
-        System.out.println("Finish preparing the anagram map. total words: " + Statistics.getInstance().getTotalWords());
-
-        return GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI),
-                new ResourceConfig().packages("anagram.services"));
-    }
+    public static final InputStream WORDS_DB = Main.class.getClassLoader().getResourceAsStream("words_clean.txt");
 
     public static void main(String[] args) {
-        startServer();
-        System.out.println("The Anagram app started! available at " + BASE_URI + " Hit enter to stop it...");
+        System.out.println("Prepares the anagram map.. ");
+
+        long startTime = System.currentTimeMillis();
+
+        AnagramManager.CreateAnagramMap(WORDS_DB);
+
+        System.out.println("Finish preparing the anagram map. total words: " + Statistics.getInstance().getTotalWords() +
+                " total time: " + (System.currentTimeMillis() - startTime) + " milliseconds");
+
+
+        SpringApplication.run(Main.class, args);
+
+        System.out.println("The Anagram app started! Hit enter to stop it...");
     }
 }

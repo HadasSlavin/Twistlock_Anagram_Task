@@ -4,14 +4,19 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Statistics {
     @JsonProperty
-    private int totalWords = 0;
+    private int totalWords;
     @JsonProperty
-    private int totalRequests = 0;
-    private int reqTimeSum = 0;
+    private int totalRequests;
+
+    private int reqTimeSum;
 
     private static Statistics instance;
 
-    private Statistics() { }
+    private Statistics() {
+        totalWords = 0;
+        totalRequests = 0;
+        reqTimeSum = 0;
+    }
 
     public static Statistics getInstance()
     {
