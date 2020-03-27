@@ -18,14 +18,10 @@ public class Statistics {
         reqTimeSum = 0;
     }
 
-    public static Statistics getInstance()
-    {
-        if (instance == null)
-        {
-            synchronized (Statistics.class)
-            {
-                if(instance==null)
-                {
+    public static Statistics getInstance() {
+        if (instance == null) {
+            synchronized (Statistics.class) {
+                if(instance==null) {
                     instance = new Statistics();
                 }
             }

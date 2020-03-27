@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6aba7b1-ec3d-4e6e-ae9c-157f3419efc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/anagram/services/SimilarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/anagram/services/StatsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/AnagramManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/AnagramManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/Helper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/SimilarService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/SimilarWords.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagram/services/Statistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/anagram/services/StatsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twistlock_Anagram_Task-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twistlock_Anagram_Task.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Twistlock_Anagram_Task-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twistlock_Anagram_Task-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Twistlock_Anagram_Task-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twistlock_Anagram_Task-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/AnagramManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/anagram/services/AnagramManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/Helper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/anagram/services/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/SimilarService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/SimilarWords.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/Statistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/anagram/services/Statistics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/anagram/services/StatsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/words_clean.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,22 +181,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585057376670" />
-    <state width="1323" height="145" key="GridCell.Tab.0.bottom" timestamp="1585257635315">
+    <state width="1323" height="145" key="GridCell.Tab.0.bottom" timestamp="1585297266074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="145" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585257635315" />
-    <state width="1323" height="145" key="GridCell.Tab.0.center" timestamp="1585257635314">
+    <state width="1323" height="145" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585297266074" />
+    <state width="1323" height="145" key="GridCell.Tab.0.center" timestamp="1585297266073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="145" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585257635314" />
-    <state width="1323" height="145" key="GridCell.Tab.0.left" timestamp="1585257635314">
+    <state width="1323" height="145" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585297266073" />
+    <state width="1323" height="145" key="GridCell.Tab.0.left" timestamp="1585297266073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="145" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585257635314" />
-    <state width="1323" height="145" key="GridCell.Tab.0.right" timestamp="1585257635314">
+    <state width="1323" height="145" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585297266073" />
+    <state width="1323" height="145" key="GridCell.Tab.0.right" timestamp="1585297266074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="145" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585257635314" />
+    <state width="1323" height="145" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585297266074" />
     <state width="1323" height="34" key="GridCell.Tab.1.bottom" timestamp="1585243698983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -7,10 +7,10 @@ The mapping is built before the server goes up.
 #similar api: 
 If there is a key mapping with the word from the query in its sorted form, the service will return the value for this mapping (the value 
 is a list of anagrams for that word)
-If theere is no key with the word from the query in its sorted form the service will return empty list.
+If there is no key with the word from the query in its sorted form the service will return empty list.
 
 #Running the program:
-To run the program from the command line, download target/Twistlock_Anagram_Task-jar-with-dependencies.jar
+To run the program from the command line, download target/Twistlock_Anagram_Task-1.0-SNAPSHOT.jar
 navigate to the jar directory and use the following command:
 
-java -jar Twistlock_Anagram_Task-jar-with-dependencies.jar
+java -jar Twistlock_Anagram_Task-1.0-SNAPSHOT.jar

@@ -10,8 +10,8 @@ public class AnagramManager {
         return anagramMap;
     }
 
-    public static void CreateAnagramMap(InputStream path) {
-        Scanner scanner = new Scanner(path);
+    public static void CreateAnagramMap(InputStream straem) {
+        Scanner scanner = new Scanner(straem);
 
         while (scanner.hasNext()) {
             String sourceWord = scanner.nextLine();
