@@ -2,20 +2,22 @@ package anagram.services;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class Statistics {
     @JsonProperty
     private int totalWords;
     @JsonProperty
-    private int totalRequests;
+    private AtomicInteger totalRequests;
 
-    private int reqTimeSum;
+    private AtomicInteger reqTimeSum;
 
     private static Statistics instance;
 
     private Statistics() {
         totalWords = 0;
-        totalRequests = 0;
-        reqTimeSum = 0;
+        totalRequests = new AtomicInteger(0);
+        reqTimeSum = new AtomicInteger(0);
     }
 
     public static Statistics getInstance() {
@@ -35,7 +37,7 @@ public class Statistics {
 
     @JsonProperty
     public int getAvgProcessingTimeNs() {
-        return totalRequests != 0 ? reqTimeSum/totalRequests : 0;
+        return totalRequests.get() != 0 ? reqTimeSum.get()/totalRequests.get() : 0;
     }
 
     public void incrementTotalWords() {
@@ -43,10 +45,10 @@ public class Statistics {
     }
 
     public void incrementTotalRequests() {
-        totalRequests++;
+        totalRequests.incrementAndGet();
     }
 
     public void updateReqTimeSum(int reqTime) {
-        reqTimeSum+=reqTime;
+        reqTimeSum.addAndGet(reqTime);
     }
 }
